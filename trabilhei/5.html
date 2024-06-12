@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css.css">
+    <style>
+        .container{
+            text-align: center;
+        }
+    </style>
+     <script>
+        function showDateTime() {
+            let now = new Date();
+            document.getElementById("datetime").innerHTML = now.toString();
+        }
+    </script>
+</head>
+<body>
+    <h1><p>Fim!</p></h1>
+    <h2><p>Com imensa gratidão e como um enorme agradecimento, Giuseppe e Fabinho fizeram um bolo para vocês, boa noite. SZ</p></h2>
+
+    <button onclick="showDateTime()">para não perder o tempo (que não existe)</button>
+   <p id="datetime"></p>
+</body>
+</html>
